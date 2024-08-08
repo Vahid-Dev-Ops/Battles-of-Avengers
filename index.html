@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battles of Avengers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main-1 mains">
+        <div class="logo">Battles of Avengers</div>
+        <div class="button-section">
+            <button type="button" class="start">Start</button>
+        </div>
+
+        <video autoplay muted loop>
+            <source src="./images/Marvel-intro (2).mp4">
+        </video>
+    </div>
+    <div class="main-2 mains">
+        <h2>Choose Player 1</h2>
+        <div class="choose-div">
+            <div class="characters-div">
+                <div class="ironman character" data-name="Iron Man" data-health="250" data-power="50"></div>
+                <div class="thor character" data-name="Thor" data-health="250" data-power="80"></div>
+                <div class="hulk character" data-name="Hulk" data-health="250" data-power="65"></div>
+                <div class="captain-america character" data-name="Captain America" data-health="250" data-power="30">
+                </div>
+                <div class="thanos character" data-name="Thanos" data-health="250" data-power="75"></div>
+                <div class="natasha character" data-name="Natasha Romanoff" data-health="250" data-power="15"></div>
+                <div class="barton character" data-name="Clint Barton" data-health="250" data-power="15"></div>
+                <div class="wanda character" data-name="Wanda Maximoff" data-health="250" data-power="85"></div>
+                <div class="doctor-strange character" data-name="Doctor Strange" data-health="250" data-power="75">
+                </div>
+                <div class="black-panther character" data-name="Black Panther" data-health="250" data-power="50"></div>
+                <div class="spiderman character" data-name="Spiderman" data-health="250" data-power="40"></div>
+                <div class="captain-marvel character" data-name="Captain Marvel" data-health="250" data-power="80">
+                </div>
+                <div class="vision character" data-name="Vision" data-health="250" data-power="75"></div>
+            </div>
+
+        </div>
+        <div class="below-div">
+            <div class="hero-div below">
+                <h3>Player 1</h3>
+                <div class="hero-info info"></div>
+            </div>
+            <button class="fight">Fight</button>
+            <div class="enemy-div below">
+                <h3>Player 2</h3>
+                <div class="enemy-info info"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="main-3 mains">
+        <div class="main-3-container">
+            <div class="hero-section war">
+                <div class="hero-up defense">
+                    <div class="hero-below"></div>
+                </div>
+            </div>
+            <button type="button" class="beat">Beat</button>
+            <div class="enemy-section war">
+                <div class="enemy-up defense">
+                    <div class="enemy-below"></div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="result"></h2>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
